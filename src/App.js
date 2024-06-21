@@ -3,6 +3,7 @@ import Navbar from './Component/Navbar'
 import './index.css';
 import Home from './Component/Home';
 import Menu from './Component/Menu';
+import About from './Component/About';
 
 const App = () => {
   return (
@@ -14,6 +15,9 @@ const App = () => {
         </div>
         <div id='menu'>
         <Menu/>
+        </div>
+        <div id='about'>
+          <About/>
         </div>
       </main>
      
