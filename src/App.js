@@ -4,6 +4,7 @@ import './index.css';
 import Home from './Component/Home';
 import Menu from './Component/Menu';
 import About from './Component/About';
+import Products from './Component/Products';
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
         </div>
         <div id='about'>
           <About/>
+        </div>
+        <div id='products'>
+          <Products/>
         </div>
       </main>
      
