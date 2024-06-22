@@ -6,6 +6,7 @@ import Menu from './Component/Menu';
 import About from './Component/About';
 import Products from './Component/Products';
 import Review from './Component/Review';
+import Footer from './Component/Footer';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         </div>
 
       </main>
+      <Footer/>
      
       
       
